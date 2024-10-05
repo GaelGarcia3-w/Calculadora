@@ -167,76 +167,139 @@ elif opcion == 4:#"if" indica cual de las  opciones de las que elegite se realiz
  
  elif opcion == 7:#"if" indica cual de las  opciones de las que elegite se realizara.
 
-   num1=int(input("Selecciona un numero :"))#Te pide ingresar un numero para realizar la operacion.
-    print(" ")
-    from math import sqrt
-    r = sqrt(num1)#La operacion realizandose.
-    print(" ")
-    print("El resulatdo es :", r) #El mensaje que te arroja el resultado. 
-    print(" ")
+  num1=int(input("Selecciona un numero :"))#Te pide ingresar un numero para realizar la operacion.
+  
+   print(" ")
+   
+   from math import sqrt
+   
+   r = sqrt(num1)#La operacion realizandose.
+   
+   print(" ")
+   
+   print("El resulatdo es :", r) #El mensaje que te arroja el resultado. 
+   
+   print(" ")
+ 
  elif opcion == 8:#"if" indica cual de las  opciones de las que elegite se realizara.
-    num1 =int(input("Ingresa un numero :"))#Te pide ingresar un numero para realizar la operacion.
-    print(" ")
+ 
+   num1 =int(input("Ingresa un numero :"))#Te pide ingresar un numero para realizar la operacion.
+   
+   print(" ")
 
   r=math.factorial(num1)#La operacion realizandose.
-    print(" ")
-    print("El resultad es :", r)#El mensaje que te arroja el resultado.
-    print(" ")
+
+   print(" ")
+   
+   print("El resultad es :", r)#El mensaje que te arroja el resultado.
+  
+   print(" ")
+ 
  elif opcion == 9:#"if" indica cual de las  opciones de las que elegite se realizara.
 
   print(" ")
-    num1=int(input("Ingresa un numero :"))
-    r = math.pow(num1 ,1/3) #La operacion realizandose.
-    print(" ")
-    print("El resultado es :", r)#El mensaje que te arroja el resultado.
-    print(" ")
+ 
+   num1=int(input("Ingresa un numero :"))
+   
+   r = math.pow(num1 ,1/3) #La operacion realizandose.
+   
+   print(" ")
+   
+   print("El resultado es :", r)#El mensaje que te arroja el resultado.
+   
+   print(" ")
+ 
  elif opcion == 10:#"if" indica cual de las  opciones de las que elegite se realizara.
    
    num1 = float(input("Ingresa el angulo de grados :"))
-    print(" ")
-    r = math.sin(math.radians(num1))#La operacion realizandose.
-    print("El seno es :", r)#El mensaje que te arroja el resultado.
-    print(" ")
+ 
+   print(" ")
+   
+   r = math.sin(math.radians(num1))#La operacion realizandose.
+   
+   print("El seno es :", r)#El mensaje que te arroja el resultado.
+   
+   print(" ")
+ 
  elif opcion == 11:#"if" indica cual de las  opciones de las que elegite se realizara.
-    print(" ")
-    num1 = float(input("Ingresa el angulo de grados :"))
-    print(" ")
-    r = math.cos(math.radians(num1))#La operacion realizandose.
-    print("El seno es :", r)#El mensaje que te arroja el resultado.
-    print(" ")
+ 
+   print(" ")
+   
+   num1 = float(input("Ingresa el angulo de grados :"))
+   
+   print(" ")
+   
+   r = math.cos(math.radians(num1))#La operacion realizandose.
+   
+   print("El seno es :", r)#El mensaje que te arroja el resultado.
+   
+   print(" ")
+ 
  elif opcion==12:#"if" indica cual de las  opciones de las que elegite se realizara.
-    print("Promedio") 
-    num1 =float(input("Ingresa la primer calificación :"))
-    num2 =float(input("Ingresa la segunda calificación :"))
-    num3 =float(input("Ingresa la tercer calificación :"))
-    r = (num1 + num2 + num3 / 3)#La operacion realizandose.
-    print("Tu promedio es :", r)#El mensaje que te arroja el resultado.
-    print(" ")  
+
+   print("Promedio") 
+   
+   num1 =float(input("Ingresa la primer calificación :"))
+   
+   num2 =float(input("Ingresa la segunda calificación :"))
+   
+   num3 =float(input("Ingresa la tercer calificación :"))
+   
+   r = (num1 + num2 + num3 / 3)#La operacion realizandose.
+   
+   print("Tu promedio es :", r)#El mensaje que te arroja el resultado.
+   
+   print(" ")  
  elif opcion==13:#"if" indica cual de las  opciones de las que elegite se realizara.
-    print("Porcentaje")
-    num1=float(input("Escriba el porcentaje: "))
-    num2=float(input("Escriba la cantidad de la que quiere que se saque ese porcentaje: "))
-    r=num1/100#La operacion realizandose.
-    p=r*num2
-    print("El porcentaje de esa cantidad es de:", p)#El mensaje que te arroja el resultado.
-    print(" ")
+
+   print("Porcentaje")
+   
+   num1=float(input("Escriba el porcentaje: "))
+  
+   num2=float(input("Escriba la cantidad de la que quiere que se saque ese porcentaje: "))
+   
+   r=num1/100#La operacion realizandose.
+   
+   p=r*num2
+   
+   print("El porcentaje de esa cantidad es de:", p)#El mensaje que te arroja el resultado.
+   
+   print(" ")
+ 
  elif opcion==14:#"if" indica cual de las  opciones de las que elegite se realizara.
-    print("IMC")
-    num1=float(input("Ingrese su altura (metros ejemplo 1.72): "))
-    num2=float(input("Ingrese su peso (kg): "))
-    r=num1*num1#La operacion realizandose.
-    IMC=num2/r
-    print("Su indice de masa corporal es: ", IMC)
-    print(" ")
-    print("Bajo peso: IMC < 18.5")
-    print("Peso normal: IMC 18.5 - 24.9")
-    print("Sobrepeso: IMC 25 - 29.9")
-    print("Obesidad: IMC ≥ 30")
-    print(" ")
+ 
+   print("IMC")
+   
+   num1=float(input("Ingrese su altura (metros ejemplo 1.72): "))
+   
+   num2=float(input("Ingrese su peso (kg): "))
+   
+   r=num1*num1#La operacion realizandose.
+   
+   IMC=num2/r
+   
+   print("Su indice de masa corporal es: ", IMC)
+   
+   print(" ")
+   
+   print("Bajo peso: IMC < 18.5")
+   
+   print("Peso normal: IMC 18.5 - 24.9")
+   
+   print("Sobrepeso: IMC 25 - 29.9")
+   
+   print("Obesidad: IMC ≥ 30")
+   
+   print(" ")
+ 
  elif opcion==0:
-    print("Saliste excitantemente......")
-    break
+ 
+   print("Saliste excitantemente......")
+   
+   break
 
  else:#"Else"te indicara cuando un valor no sea correcto y te arrojara el mensaje de abajo.
-    print(" ")
-    print("Ese no es un valor aceptable :( ")
+   
+   print(" ")
+   
+   print("Ese no es un valor aceptable :( ")
